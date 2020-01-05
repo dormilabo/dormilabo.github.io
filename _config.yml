@@ -1,12 +1,29 @@
-title: Dormilabo - Your freelance partner
+title:
+  lo: Dormilabo - ຄູ່ຮ່ວມງານ ອິດສະຫຼະຂອງທ່ານ
+  en: Dormilabo - Your freelance partner
 email: dormilabo@gmail.com
-description: a freelance project aim to provide outsource MIS solutions and services to the SMEs and Entrepreneurs - IT Equipment - Website and Software development - Customized training - Content authoring
-baseurl: /
-url: https://dormilabo.github.io
+description:
+  lo: ໂຄງການສະໜອງວຽກງານ ພາຍໃຕ້ ຮູບການຜູ້ສະໜອງອິດສະຫຼະ ທີ່ຕອບສະໜອງດ້ານ ການຈັດການ ລະບົບຂໍ້ມູນ ໃນກຸ່ມ ທຸລະກິດຂະໜາດນ້ອຍ ແລະຜູ້ປະກອບການໂດຍກົງ - ອຸປະກອນ ໄອທີ - ພັດທະນາເວັບໄຊທ ແລະຊຸດຄຳສັ່ງ - ຈັດຝຶກອົບຮົມ ສະເພາະເຈາະຈົງ - ຂຽນບົດຄວາມ
+  en: A freelance project aim to provide outsource MIS solutions and services to the SMEs and Entrepreneurs - IT Equipment - Website and Software development - Customized training - Content authoring
+index:
+  lo:
+  en: index_en.html
+feed:
+  lo: /feed.xml
+  en: /feed_en.xml
+baseurl: ""
+url: "https://dormilabo.github.io"
 twitter_username: dormilabo
 github_username: dormilabo
+
+jekyll_analytics:
+    GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-155369633-1      # Required - replace with your tracking id
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-analytics
+  - jekyll-seo-tag

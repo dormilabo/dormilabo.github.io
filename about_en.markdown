@@ -1,12 +1,12 @@
 ---
 layout: page
-title: ຕົວຕົນ
-permalink: /ຕົວຕົນ/
+title: About
+permalink: /about/
 ref: about
-lang: lo
+lang: en
 ---
 
-ສິນຄ້າ ແລະບໍລິການ:
+Products:
 
 MIS Development
 
